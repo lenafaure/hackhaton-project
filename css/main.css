@@ -155,10 +155,11 @@ img{
 .open{
     position: fixed;
     z-index: 10;
+    display: block;
     top: 0;
     left: 0;
-    height:100vh;
     max-width: 50% !important;
+    max-height: 100%;
     transform-origin:50% 50%;
     -webkit-transform:scale(1.1);
     -moz-transform:scale(1.1);
