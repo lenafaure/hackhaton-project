@@ -170,7 +170,6 @@ img{
 
 .hide {
     display: none;
-
 }
 
 #preview {
@@ -178,14 +177,21 @@ img{
     top: 0;
     width: 100%;
     height: 100%;
+    color: #fff;
     background-color: #000;
+}
+
+#description {
+    /*
+    flexbox ?
+    */
 }
 
 #close {
     position: absolute;
     top: 50px;
     right: 50px;
-    color: #fff;
+
     cursor: pointer;
 }
 
