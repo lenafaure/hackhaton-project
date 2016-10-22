@@ -22,22 +22,25 @@ window.onload = function(){
 
     };
 
-
+    // Writing function for closing overlay and large size image
     var closePreview = function() {
 
+        // Replace classnames by "image" (this removes any "open" class on an image
         for (var i = 0; i < image.length; i++) {
             image[i].className = "image";
         }
 
+        // Add a classname "hide" to hide overlay
         preview.className = "hide";
 
     };
 
-    // Add an eventListener on the  element
+    // Add an eventListener on the "image" element
     for (var i = 0; i < image.length; i++) {
         image[i].addEventListener('click', openLargeImage, false);
     }
 
+    // Add an eventListener on the "close" element
     close.addEventListener('click', closePreview, false);
 
 };
