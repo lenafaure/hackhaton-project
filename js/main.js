@@ -1,12 +1,8 @@
 window.onload = function(){
 
     // Fetching the elements with className "image"
-    var classname = document.getElementsByClassName("image");
+    var image = document.getElementsByClassName("image");
 
-    // Add an eventListener on this element
-    for (var i = 0; i < classname.length; i++) {
-        classname[i].addEventListener('click', openLargeImage, false);
-    }
 
     // Writing function for opening large Image
     var openLargeImage = function() {
@@ -20,5 +16,11 @@ window.onload = function(){
      this.style.top = ((windowHeight / 2) - (contentHeight / 2)) + 'px';
 
     };
-    
+
+    // Add an eventListener on the  element
+    for (var i = 0; i < image.length; i++) {
+        image[i].addEventListener('click', openLargeImage, false);
+    }
+
+
 };
