@@ -11,6 +11,8 @@ window.onload = function(){
      this.className += " open";
 
      // Take care of the fact that the fixed element we get isn't vertically centered
+
+        
      var windowHeight = window.innerHeight;
      var contentHeight = this.offsetHeight;
      this.style.top = ((windowHeight / 2) - (contentHeight / 2)) + 'px';
