@@ -15,6 +15,7 @@ html {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 1.5px;
+    color: #fff;
 }
 
 h2, h3 {
@@ -100,6 +101,11 @@ body {
     position: relative;
 }
 
+.title {
+    text-align: center;
+    padding-top: 2em;
+}
+
 img {
     z-index: 11;
     max-width: 100%;
@@ -120,7 +126,7 @@ img {
 
 #content {
     width: 95%;
-    margin: 3em auto;
+    margin: 2em auto;
 }
 
 .grid {
@@ -209,6 +215,7 @@ img {
     justify-content: space-around;
     align-items: center;
     height: 100%;
+
 }
 
 #description {
