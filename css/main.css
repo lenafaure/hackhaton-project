@@ -222,8 +222,8 @@ img {
 
 .scroll {
     position: relative;
-    margin-left: 50%;
     padding: 100px;
+    margin-left: -40px;
 }
 
 .scroll input {
@@ -234,7 +234,7 @@ img {
     display: none;
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 11%;
     transform: translate(0, -50%);
 }
 
