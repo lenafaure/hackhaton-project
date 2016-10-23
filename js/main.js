@@ -13,7 +13,6 @@ window.onload = function(){
      this.className += " open";
 
      preview.className = "";
-     preview.className = "show";
 
      // Take care of the fact that the fixed element we get isn't vertically centered
      var windowHeight = window.innerHeight;
@@ -25,9 +24,10 @@ window.onload = function(){
     // Writing function for closing overlay and large size image
     var closePreview = function() {
 
-        // Replace classnames by "image" (this removes any "open" class on an image
+        // Replace classnames by "image" (this removes any "open" class on an image) and remove top margin
         for (var i = 0; i < image.length; i++) {
             image[i].className = "image";
+            image[i].style.top = '0px';
         }
 
         // Add a classname "hide" to hide overlay
