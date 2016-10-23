@@ -13,7 +13,6 @@ window.onload = function(){
      this.className += " open";
 
      preview.className = "";
-     preview.className = "show";
 
      // Take care of the fact that the fixed element we get isn't vertically centered
      var windowHeight = window.innerHeight;
