@@ -94,9 +94,14 @@ body {
     position: relative;
 }
 
-
 img {
     max-width: 100%;
+    margin-bottom: 20px;
+    transition: transform .2s ease-in;
+    -webkit-transition: -webkit-transform .2s ease-in;
+    -moz-transition: -moz-transform .2s ease-in;
+    -o-transition: -o-transform .2s ease-in;
+    -ms-transition: -ms-transform .2s ease-in;
     vertical-align: bottom;
 }
 
@@ -118,16 +123,28 @@ img {
     cursor: pointer;
 }
 
-img{
-    margin-bottom: 20px;
-    -webkit-transition:  -webkit-transform .2s ease-in;
-    -moz-transition: -moz-transform .2s ease-in;
-    -o-transition: -o-transform .2s ease-in;
-    -ms-transition: -ms-transform .2s ease-in;
-    transition: transform .2s ease-in;
+@media only screen and (min-width: 480px) {
+    .grid {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
+    #content {
+        width: 85%;
+        padding: 1.5em;
+    }
+
+    .grid {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 992px) {
 
     #content{
         width: 85%;
@@ -140,32 +157,20 @@ img{
         column-count: 4;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    #content {
-        width: 85%;
-        padding: 1.5em;
-    }
 
-    .grid {
-        -moz-column-count: 2;
-        -webkit-column-count: 2;
-        column-count: 2;
-    }
-}
-
-
-.open{
+.open {
     position: fixed;
+    top: 0;
     z-index: 10;
     display: block;
     margin: 0 auto;
     max-width: 40% !important;
-    max-height: 100%;
-    transform-origin:50% 50%;
-    -webkit-transform:scale(1.1);
-    -moz-transform:scale(1.1);
-    -o-transform:scale(1.1);
-    transform:scale(1.1);
+    max-height: 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .hide {
