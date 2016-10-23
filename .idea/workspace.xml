@@ -4,7 +4,6 @@
     <list default="true" id="1535ea82-2f04-4621-bb40-0360bae03238" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="hackaton-project-2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +47,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="236" column="7" selection-start-line="236" selection-start-column="7" selection-end-line="236" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -251,12 +250,12 @@
       <updated>1477148647323</updated>
       <workItem from="1477148648469" duration="3341000" />
       <workItem from="1477153379154" duration="3541000" />
-      <workItem from="1477158289869" duration="27578000" />
+      <workItem from="1477158289869" duration="27720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34460000" />
+    <option name="totallyTimeSpent" value="34602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="537" y="70" width="1383" height="888" extended-state="0" />
@@ -318,8 +317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="236" column="7" selection-start-line="236" selection-start-column="7" selection-end-line="236" selection-end-column="7" />
           <folding />
         </state>
       </provider>

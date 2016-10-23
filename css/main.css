@@ -234,6 +234,10 @@ img {
     width: 40%;
 }
 
+.right-wrapper{
+    width: 40%;
+}
+
 .quote {
     font-style: italic;
     color: #585858;
