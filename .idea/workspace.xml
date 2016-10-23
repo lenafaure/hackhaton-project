@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1535ea82-2f04-4621-bb40-0360bae03238" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1470619549108-b85c56fe5be8-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1477069077421-fb436712c28b-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1477075543404-9d0a72bbccbe-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1477075566660-2cdda96f2a6c-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1477075591468-abe3aefdd46c-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1477080516848-367ac41e6a9a-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1477085547885-8ee2d26e4efa-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1477088139840-0f0a9cb47cce-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1477089922324-c1deaf4a2242-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1477108929941-e49f232aa6ed-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1477120128765-a0528148fed2-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbs/photo-1477120292453-1cad512c7c44-min.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/thumbs/9.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="hackaton-project-2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+            <state relative-caret-position="-484">
+              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -265,12 +239,12 @@
       <updated>1477148647323</updated>
       <workItem from="1477148648469" duration="3341000" />
       <workItem from="1477153379154" duration="3541000" />
-      <workItem from="1477158289869" duration="28772000" />
+      <workItem from="1477158289869" duration="28895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35654000" />
+    <option name="totallyTimeSpent" value="35777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="537" y="70" width="1383" height="888" extended-state="0" />
@@ -332,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+        <state relative-caret-position="-484">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
           <folding />
         </state>
       </provider>
