@@ -38,6 +38,8 @@ window.onload = function(){
                 image[i].id = "waitingforclick";
 
 
+                console.log(image[i]);
+
                 // Close the preview
                 closePreview();
 
@@ -45,7 +47,7 @@ window.onload = function(){
                 document.getElementById('waitingforclick').click();
 
                 // Suppress transitory id
-                document.getElementById('waitingforclick').id=  "";
+                document.getElementById('waitingforclick').id = "";
             }
 
         }
@@ -60,7 +62,7 @@ window.onload = function(){
             image[i].className = "image";
             image[i].style.top = "";
         }
-        
+
         // Add a classname "hide" to hide overlay
         preview.className = "hide";
 

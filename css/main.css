@@ -95,6 +95,7 @@ body {
 }
 
 img {
+    z-index: 11;
     max-width: 100%;
     margin-bottom: 20px;
     transition: transform .2s ease-in;
@@ -102,6 +103,13 @@ img {
     -moz-transition: -moz-transform .2s ease-in;
     -o-transition: -o-transform .2s ease-in;
     -ms-transition: -ms-transform .2s ease-in;
+}
+
+.notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
 }
 
 #content {
@@ -119,6 +127,10 @@ img {
 }
 
 .item {
+    cursor: pointer;
+}
+
+.thumbnail {
     cursor: pointer;
 }
 
@@ -173,13 +185,11 @@ img {
 
 .hide {
     display: none;
-    -webkit-transition: -webkit-transform .0s ease-in;
-    -moz-transition: -moz-transform .0s ease-in;
-    -o-transition: -o-transform .0s ease-in;
-    -ms-transition: -ms-transform .0s ease-in;
+
 }
 
 #preview {
+    z-index: 10;
     position: fixed;
     top: 0;
     width: 100%;
@@ -203,7 +213,6 @@ img {
     right: 50px;
     cursor: pointer;
 }
-
 
 
 /* ==========================================================================
