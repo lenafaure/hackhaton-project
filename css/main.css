@@ -102,7 +102,6 @@ img {
     -moz-transition: -moz-transform .2s ease-in;
     -o-transition: -o-transform .2s ease-in;
     -ms-transition: -ms-transform .2s ease-in;
-    vertical-align: bottom;
 }
 
 #content {
@@ -161,7 +160,6 @@ img {
 .open {
     position: fixed;
     top: 0;
-    z-index: 10;
     display: block;
     margin: 0 auto;
     max-width: 40% !important;
@@ -175,6 +173,10 @@ img {
 
 .hide {
     display: none;
+    -webkit-transition: -webkit-transform .0s ease-in;
+    -moz-transition: -moz-transform .0s ease-in;
+    -o-transition: -o-transform .0s ease-in;
+    -ms-transition: -ms-transform .0s ease-in;
 }
 
 #preview {
@@ -189,23 +191,18 @@ img {
 #description {
     margin-left: 50%;
     margin-top: 20%;
-    /*
-    flexbox ?
-    */
+}
+
+.scroll {
+    margin-left: 50%;
 }
 
 #close {
     position: absolute;
     top: 50px;
     right: 50px;
-
     cursor: pointer;
 }
-
-
-
-
-
 
 
 
