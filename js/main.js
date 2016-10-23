@@ -27,7 +27,7 @@ window.onload = function(){
         // Replace classnames by "image" (this removes any "open" class on an image) and remove top margin
         for (var i = 0; i < image.length; i++) {
             image[i].className = "image";
-            image[i].style.top = '0px';
+            image[i].style.top = "";
         }
 
         // Add a classname "hide" to hide overlay

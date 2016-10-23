@@ -97,7 +97,6 @@ body {
 
 img {
     max-width: 100%;
-    vertical-align: bottom;
 }
 
 #content {
@@ -106,8 +105,8 @@ img {
 }
 
 .grid {
-    -moz-column-gap: 100px;
-    -webkit-column-gap: 10px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
     column-gap: 20px;
     -moz-column-fill: initial;
     -webkit-column-fill: initial;
