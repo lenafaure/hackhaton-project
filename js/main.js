@@ -9,7 +9,6 @@ window.onload = function(){
     // Writing function for opening large Image
     var openLargeImage = function() {
 
-
      // On the clicked element, adding a class "open" wich we defined in the CSS and creates the scale              transition
      this.className += " open";
 
