@@ -218,8 +218,55 @@ img {
 
 }
 
-#description {
-    padding-bottom: 3em;
+/* images scrollbar in preview */
+
+.scroll {
+    position: relative;
+    padding: 100px;
+    margin-left: -40px;
+}
+
+.scroll input {
+    display: none;
+}
+
+.thumb-group {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    transform: translate(0, -50%);
+}
+
+input:checked + .thumb-group {
+    display: block;
+}
+
+.control {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 42.5%;
+    line-height: 20px;
+}
+
+.prev {
+    left: 5%;
+}
+
+.next {
+    right: 53%;
+}
+
+input:first-of-type:checked ~ .control-1,
+input:nth-of-type(2):checked ~ .control-2,
+input:nth-of-type(3):checked ~ .control-3 {
+    display: block;
+}
+
+i {
+   color: white;
+
 }
 
 
@@ -240,6 +287,10 @@ img {
 
 .quote {
     font-style: italic;
+    color: #585858;
+}
+
+.subtitle {
     color: #585858;
 }
 
