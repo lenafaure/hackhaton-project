@@ -220,42 +220,34 @@ img {
 
 /* images scrollbar in preview */
 
-.scroll {
-    position: relative;
-    padding: 100px;
-    margin-left: -40px;
-}
-
 .scroll input {
     display: none;
 }
 
-.thumb-group {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 11%;
-    transform: translate(0, -50%);
+.scroll > * {
+    float: left;
 }
 
-input:checked + .thumb-group {
+.thumb-group {
+    display: none;
+    padding: 20px 15px;
+}
+
+input#group-1:checked ~ .thumb-group:first-of-type,
+input#group-2:checked ~ .thumb-group:nth-of-type(2),
+input#group-3:checked ~ .thumb-group:nth-of-type(3) {
     display: block;
 }
 
 .control {
     cursor: pointer;
     display: none;
-    position: absolute;
-    top: 42.5%;
+    padding-top: 35px;
     line-height: 20px;
 }
 
-.prev {
-    left: 5%;
-}
-
-.next {
-    right: 53%;
+.control:hover {
+    color: #fff;
 }
 
 input:first-of-type:checked ~ .control-1,
@@ -266,9 +258,7 @@ input:nth-of-type(3):checked ~ .control-3 {
 
 i {
    color: white;
-
 }
-
 
 #close {
     position: absolute;
